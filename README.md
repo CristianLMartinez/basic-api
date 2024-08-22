@@ -15,7 +15,7 @@ Before we dive in, make sure you have the following installed:
 - Java (JDK 21 or above)
 - Maven
 - An IDE (like IntelliJ IDEA or Eclipse)
-- PostgreSQL (or any other relational database - change if you want)
+- H2 by default (or any other relational database - change if you want)
 - Any rest manager like: POSTMAN, INSOMNIA, RESTCLIENT, etc...
 
 >[!IMPORTANT]

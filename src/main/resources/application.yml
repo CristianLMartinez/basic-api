@@ -1,9 +1,18 @@
 spring:
   datasource:
-    # Se esta usando postgresql como db, si quieres cambiarlo asegurate de cambiar el driver en el POM.xml
-    username: # database url
-    url: # database username
-    password: # database password
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    defer-datasource-initialization: true
+    sql:
+      init:
+        mode: always
 
   application:
     name: training-new-gen
