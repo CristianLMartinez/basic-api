@@ -5,6 +5,8 @@ you will walk you through essential concepts like interaction between different 
 
 Please check the code, review it and improve it and last but not least, fork it if you want...
 
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -14,6 +16,10 @@ Before we dive in, make sure you have the following installed:
 - Maven
 - An IDE (like IntelliJ IDEA or Eclipse)
 - PostgreSQL (or any other relational database - change if you want)
+- Any rest manager like: POSTMAN, INSOMNIA, RESTCLIENT, etc...
+
+>[!IMPORTANT]
+> Look at the request.json and import it inside your postman or insomnia to test the api 
 
 ### Project Structure
 
