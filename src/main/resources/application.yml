@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    # Se esta usando postgresql como db, si quieres cambiarlo asegurate de cambiar el driver en el POM.xml
+    username: # database url
+    url: # database username
+    password: # database password
+
+  application:
+    name: training-new-gen
+
+
